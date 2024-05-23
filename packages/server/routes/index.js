@@ -5,5 +5,6 @@ router.get('/', function (req, res, next) {
 });
 
 require('./users');
+require('./webhooks');
 
 module.exports = router;
